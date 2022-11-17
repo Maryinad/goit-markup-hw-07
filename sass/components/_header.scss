@@ -2,13 +2,13 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header-list {
+.header__list {
   display: flex;
   gap: 30px;
   padding-top: 32px;
@@ -16,37 +16,16 @@ header {
   margin-left: 93px;
 }
 
-.container-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-.contacts {
-  display: flex;
-  gap: 50px;
-  margin-right: 0;
-  align-items: baseline;
-}
-
-// .contacts.connect:hover,
-// .contacts.connect:focus {
-//   color: $accent-color;
-// }
-
-.logo {
-  text-decoration: none;
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $accent-color;
-}
-
-.header-logopart {
+.header__logopart {
   color: $header-logopart;
 }
 
-.link-nav {
+.header__link-nav {
   text-decoration: none;
   color: $title-text-color;
   font-weight: 500;
@@ -60,8 +39,29 @@ header {
   }
 }
 
-.header-item {
+.header__item {
   position: relative;
+}
+
+.header__contacts-nav {
+  text-decoration: none;
+  color: $primery-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  transition: color $time $cubic;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header__icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .current {
@@ -79,23 +79,18 @@ header {
   }
 }
 
-.link-nav-cont {
+.logo {
   text-decoration: none;
-  color: $primery-text-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  transition: color $time $cubic;
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $accent-color;
 }
 
-.icon-header {
-  margin-right: 10px;
-  fill: currentColor;
+.contacts {
+  display: flex;
+  gap: 50px;
+  margin-right: 0;
+  align-items: baseline;
 }
