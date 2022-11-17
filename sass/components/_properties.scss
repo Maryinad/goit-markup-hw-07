@@ -1,0 +1,34 @@
+.properties {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.properties-list {
+  display: flex;
+  gap: 30px;
+}
+
+.properties-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.properties-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: $secondary-primery-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
