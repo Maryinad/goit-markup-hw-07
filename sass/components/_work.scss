@@ -1,7 +1,7 @@
-.work-section {
+.work__section {
   padding-bottom: 94px;
 }
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -10,15 +10,15 @@
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-toptext {
+.work__toptext {
   width: 100%;
   height: 70px;
   color: $primery-white-color;
