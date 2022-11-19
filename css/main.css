@@ -47,6 +47,8 @@ img {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -684,12 +686,12 @@ input {
   padding-bottom: 94px;
 }
 
-.properties-list {
+.properties__list {
   display: flex;
   gap: 30px;
 }
 
-.properties-title {
+.properties__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -697,13 +699,13 @@ input {
   margin-bottom: 10px;
 }
 
-.properties-text {
+.properties__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.icon-container {
+.properties__wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,13 +716,13 @@ input {
   margin-bottom: 30px;
 }
 
-.section-team {
+.team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.team-title {
+.team__title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -728,14 +730,14 @@ input {
   letter-spacing: 0.03em;
 }
 
-.team-list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
 }
 
-.team-item {
+.team__item {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
@@ -746,7 +748,7 @@ input {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-text {
+.team__text {
   color: #757575;
   font-size: 16px;
   line-height: 1.19;
@@ -754,25 +756,25 @@ input {
   margin-top: 10px;
 }
 
-.team-details {
+.team__details {
   text-align: center;
   padding: 30px 10px;
 }
 
-.team-item img {
+.team__item img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.icon-wrapping {
+.team__icon-wrapping {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
 }
 
-.icon-item {
+.team__icon-item {
   width: 44px;
   height: 44px;
   display: flex;
@@ -783,21 +785,21 @@ input {
   border-radius: 50%;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-item:hover, .icon-item:focus {
+.team__icon-item:hover, .team__icon-item:focus {
   background-color: #2196f3;
   color: #ffffff;
   border: none;
 }
 
-.icon-sochial {
+.team__icon-sochial {
   fill: currentColor;
 }
 
-.work-section {
+.work__section {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -806,16 +808,16 @@ input {
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
 
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-toptext {
+.work__toptext {
   width: 100%;
   height: 70px;
   color: #ffffff;
